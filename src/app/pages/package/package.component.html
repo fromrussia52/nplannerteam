@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row justify-content-center p-3">
+        <div class="col-6 package">
+            Package name: <span class="package__name">{{packageName}}</span>
+        </div>
+    </div>
+    <div class="row justify-content-center p-3">
+        <div class="col-6">
+            <div class="table-header">
+                <span class="table-header__col">Key</span>
+                <span class="table-header__col">Value</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-package-row [row]="item" *ngFor="let item of values| keyvalue"></app-package-row>

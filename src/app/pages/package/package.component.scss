@@ -1,0 +1,28 @@
+%font {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    height: 48px;
+    line-height: 21px;
+}
+
+.package {
+    @extend %font;
+
+    &__name {
+        font-weight: 600;
+    }
+}
+
+.table-header {
+    @extend %font;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+
+    &__col {
+        flex: 1;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}

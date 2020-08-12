@@ -1,0 +1,20 @@
+.row-container {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 48px;
+    line-height: 21px;
+    height: auto;
+
+    &__key {
+        flex: 1;
+    }
+
+    &__value {
+        flex: 1;
+        word-break: break-all;
+    }
+}
